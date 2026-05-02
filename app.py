@@ -95,9 +95,9 @@ col1, col2 = st.columns(2)
 
 with col1:
     st.subheader("📝 Basic Information")
-    input_title = st.text_input("Job Title", "Senior Software Engineer")
-    input_department = st.text_input("Department", "Engineering")
-    input_location = st.text_input("Location", "Remote")
+    input_title = st.text_input("Job Title", " ")
+    input_department = st.text_input("Department", " ")
+    input_location = st.text_input("Location", " ")
 
 with col2:
     st.subheader("💰 Salary & Compensation")
