@@ -106,9 +106,9 @@ with col2:
     input_benefits = st.text_input("Benefits", "Health insurance, 401k, remote work")
 
 st.subheader("📄 Detailed Description")
-input_company_profile = st.text_area("Company Profile", "We are a fast-growing tech startup...")
-input_description = st.text_area("Job Description", "We are looking for an experienced Python developer...", height=150)
-input_requirements = st.text_area("Requirements", "5+ years of experience in AI, PyTorch, and Streamlit...", height=100)
+input_company_profile = st.text_area("Company Profile", "")
+input_description = st.text_area("Job Description", "", height=150)
+input_requirements = st.text_area("Requirements", "", height=100)
 
 # ==========================================
 # 4. PREDICTION LOGIC
