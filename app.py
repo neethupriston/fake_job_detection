@@ -101,8 +101,8 @@ with col1:
 
 with col2:
     st.subheader("💰 Salary & Compensation")
-    input_min_salary = st.number_input("Minimum Salary ($)", min_value=0, value)
-    input_max_salary = st.number_input("Maximum Salary ($)", min_value=0, value)
+    input_min_salary = st.number_input("Minimum Salary ($)", min_value=0, value="")
+    input_max_salary = st.number_input("Maximum Salary ($)", min_value=0, value="")
     input_benefits = st.text_input("Benefits", "Health insurance, 401k, remote work")
 
 st.subheader("📄 Detailed Description")
