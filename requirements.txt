@@ -1,9 +1,9 @@
-streamlit
+streamlit>=1.30.0
 torch
 transformers
 gdown
-numpy
+numpy<2.0.0
 pandas
 joblib
 scikit-learn
-gensim
+gensim==4.4.0
