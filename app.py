@@ -106,8 +106,8 @@ def main():
     # ---------------------------------------------------------
     # നിങ്ങളുടെ ഡ്രൈവ് ID-കൾ ഇവിടെ നൽകുക
     # ---------------------------------------------------------
-    GDRIVE_MODEL_ID = 'YOUR_TRAINED_MODEL_ID_HERE' 
-    GLOVE_DRIVE_ID = 'YOUR_GLOVE_FILE_ID_HERE'
+    GDRIVE_MODEL_ID = '1-Tz7b-F8iR1NvQ1oHtD_rr5zi4G6wJzz' 
+    GLOVE_DRIVE_ID = '1uFKfamqHLwedQXuH1KTAWtyV87o6TuSj'
     # ---------------------------------------------------------
 
     model, tokenizer, salary_scaler, device = load_assets(GDRIVE_MODEL_ID)
