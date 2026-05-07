@@ -1,5 +1,8 @@
 streamlit
 torch
 transformers
-numpy
 gdown
+numpy
+pandas
+joblib
+scikit-learn
